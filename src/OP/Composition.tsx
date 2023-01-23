@@ -3,7 +3,7 @@ import {Logo} from './Logo';
 import {Subtitle} from './Subtitle';
 import {Title} from './Title';
 
-export const MyComposition = () => {
+export const OP = () => {
 	return (
 		<AbsoluteFill className="bg-gray-100 items-center justify-center">
 			<div className="m-10" />
