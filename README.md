@@ -47,24 +47,18 @@ npm run build
 npm run upgrade
 ```
 
-## Using server-side rendering
+## 一些需要注意的地方
 
-This template uses a [custom Webpack override](https://www.remotion.dev/docs/webpack). If you are using server-side rendering, you need to import the override function from `./src/webpack-override.ts` and pass it to [`bundle()`](https://www.remotion.dev/docs/bundle) (if using SSR) and [`deploySite()`](https://www.remotion.dev/docs/lambda/deploysite) (if using Lambda).
+### npm run build时No local browser could be found
 
-## Docs
+可能您的系统中并没有edge浏览器，路径为： `C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe`
 
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
+如果的确没有/是其他浏览器/移动了位置的话，请打开 `remotion.config.ts`中修改
 
-Get started with Tailwind by reading the [&#34;Utility first&#34; page](https://tailwindcss.com/docs/utility-first)
+```ts
+Config.setBrowserExecutable(
+	//将下面的路径改为你浏览器的exe路径
+	'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+);
 
-## Help
-
-We provide help [on our Discord server](https://remotion.dev/discord).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
-
-## License
-
-Notice that for some entities a company license is needed. Read [the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+```

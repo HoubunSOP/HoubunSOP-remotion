@@ -1,14 +1,14 @@
 import {Composition} from 'remotion';
-import {MyComposition} from './Composition';
+import VideoLine from './Composition';
 import './style.css';
 
 export const RemotionRoot: React.FC = () => {
-	const durationInFrame = 5000;
+	const durationInFrame = 600;
 	return (
 		<>
 			<Composition
 				id="FantasiaMonthly"
-				component={MyComposition}
+				component={VideoLine}
 				durationInFrames={durationInFrame}
 				fps={60}
 				width={1920}
