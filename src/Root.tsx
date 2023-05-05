@@ -1,23 +1,16 @@
 import {Composition} from 'remotion';
-import {OP} from './OP/Composition';
+import {MyComposition} from './Composition';
 import './style.css';
 
 export const RemotionRoot: React.FC = () => {
+	const durationInFrame = 5000;
 	return (
 		<>
 			<Composition
-				id="OP"
-				component={OP}
-				durationInFrames={240}
-				fps={30}
-				width={1920}
-				height={1080}
-			/>
-      <Composition
-				id="MagazineInformation"
-				component={OP}
-				durationInFrames={240}
-				fps={30}
+				id="FantasiaMonthly"
+				component={MyComposition}
+				durationInFrames={durationInFrame}
+				fps={60}
 				width={1920}
 				height={1080}
 			/>
