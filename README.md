@@ -11,6 +11,16 @@
 
 Welcome to your Remotion project!
 
+## 一些工具网站
+
+[插值曲线 cubic-bezier.com](https://cubic-bezier.com/#.17,.67,.83,.67)
+
+[前端GPT机器人 HOPBot - Poe](https://poe.com/HOPBot)
+
+[官方文档 Remotion](https://www.remotion.dev/docs/)
+
+[可视化编辑 figma](https://www.figma.com/file/IZsBQDdD4LJEOE9m2hybbC/FantasiaMonthly?node-id=0%3A1&t=rMLlKPjSk4UCpvJm-1)
+
 ## Commands
 
 **Install Dependencies**
@@ -45,7 +55,7 @@ This template uses a [custom Webpack override](https://www.remotion.dev/docs/web
 
 Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
 
-Get started with Tailwind by reading the ["Utility first" page](https://tailwindcss.com/docs/utility-first)
+Get started with Tailwind by reading the [&#34;Utility first&#34; page](https://tailwindcss.com/docs/utility-first)
 
 ## Help
 
