@@ -6,5 +6,5 @@ Config.setOverwriteOutput(true);
 
 Config.overrideWebpackConfig(webpackOverride);
 Config.setBrowserExecutable(
-	'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
+	'D:\\misaka10843\\Downloads\\Chrome-bin\\chrome.exe'
 );

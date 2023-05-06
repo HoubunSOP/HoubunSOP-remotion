@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "start": "remotion preview",
-    "build": "remotion render FantasiaMonthly output/video.mp4",
+    "build": "remotion render FantasiaMonthly output/video.mp4 --log=verbose",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },

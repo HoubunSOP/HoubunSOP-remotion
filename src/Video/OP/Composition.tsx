@@ -67,7 +67,10 @@ export const OP = () => {
 					芳文月刊
 				</p>
 				<p
-					style={{opacity: subTitleOpacity, textShadow: '0px 0px 30px #fff'}}
+					style={{
+						opacity: subTitleOpacity,
+						textShadow: '0px 0px 30px #fff',
+					}}
 					className="whitespace-pre-wrap absolute top-[307px] left-[158px] font-['Inter'] text-[70px] leading-[normal] text-left text-white"
 				>
 					2023.4
