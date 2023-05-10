@@ -3,7 +3,7 @@ dist
 .DS_Store
 .env
 *.log
-
+remotion.config.ts
 # Ignore the output video from Git but not videos you import into src/.
 output
 output.md

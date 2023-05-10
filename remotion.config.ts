@@ -1,10 +1,10 @@
 import {Config} from 'remotion';
 import {webpackOverride} from './src/webpack-override';
 
-Config.setImageFormat('jpeg');
+Config.setImageFormat('png');
 Config.setOverwriteOutput(true);
 
 Config.overrideWebpackConfig(webpackOverride);
 Config.setBrowserExecutable(
-	'D:\\misaka10843\\Downloads\\Chrome-bin\\chrome.exe'
+	'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe'
 );
