@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-pascal-case */
 import {Sequence} from 'remotion';
 import {OP} from './Video/OP/Composition';
-import {MagazineNewsIndex} from './Video/MagazineNews';
+import MagazineNewsIndex from "./Video/MagazineNews";
 
 const Sequences = () => {
 	return (

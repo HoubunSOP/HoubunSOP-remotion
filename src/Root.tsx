@@ -1,6 +1,7 @@
 import {Composition} from 'remotion';
 import VideoLine from './Composition';
 import './style.css';
+import React from "react";
 
 export const RemotionRoot: React.FC = () => {
 	const durationInFrame = 600;

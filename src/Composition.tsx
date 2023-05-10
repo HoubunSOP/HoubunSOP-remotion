@@ -6,8 +6,8 @@ import Sequences from './Sequences';
 const VideoLine = () => {
 	return (
 		<AbsoluteFill>
-			<Img src={staticFile('assets/Img/Backgroud/backgroud.png')} />
-			<Audio src={staticFile('assets/audio/backgroud.mp3')} />
+			<Img src={staticFile('assets/Img/Background/background.png')} />
+			<Audio src={staticFile('assets/audio/background.mp3')} />
 			<Sequences />
 		</AbsoluteFill>
 	);
